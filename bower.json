@@ -29,6 +29,8 @@
   "devDependencies": {
     "jquery": "~2.1.4",
     "modernizr": "~3.2.0",
-    "perfect-scrollbar": "~0.6.7"
+    "perfect-scrollbar": "~0.6.7",
+    "bootstrap": "~3.3.6",
+    "angular-route": "~1.4.8"
   }
 }

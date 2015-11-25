@@ -6,17 +6,31 @@
 		<meta name="viewport" content="width=device-width" />
 
 		<link rel="stylesheet" href="css/style.css?0" media="all" />
+		<link rel="stylesheet" href="http://bootswatch.com/slate/bootstrap.css" media="all">
+		<!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css?0" media="all" /> -->
 		<!-- <link rel="stylesheet" href="/css/font-awesome.css?0" media="all" />
 		<link rel="stylesheet" href="/css/perfect-scrollbar.css?0" media="all" /> -->
 
 		<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
-		<script src="bower_components/modernizr/src/Modernizr.js" charset="utf-8"></script>
+		<script src="bower_components/angular-route/angular-route.min.js" charset="utf-8"></script>
 		<script src="bower_components/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js" charset="utf-8"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
 		<script src="app.js" charset="utf-8"></script>
 
+
 	</head>
-	<body class="landing" ng-controller="mainController">
-    	
-  	</body>
+	<body class="landing" ng-controller="navController">
+		<nav class="navbar navbar-default">
+		  <div class="container">
+				 <a class="navbar-brand" href="#">Visualize</a>
+				<ul class="nav navbar-nav">
+			 		<li ng-repeat="item in navitems"><a href="{{ item.url }}">{{ item.name }}</a></li>
+		 		</ul>
+		  </div>
+		</nav>
+		<div ng-view>
+
+		</div>
+	</body>
 </html>
