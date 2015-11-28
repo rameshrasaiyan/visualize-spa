@@ -31,6 +31,7 @@
     "modernizr": "~3.2.0",
     "perfect-scrollbar": "~0.6.7",
     "bootstrap": "~3.3.6",
-    "angular-route": "~1.4.8"
+    "angular-route": "~1.4.8",
+    "d3": "~3.5.9"
   }
 }

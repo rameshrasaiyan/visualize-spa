@@ -4,11 +4,7 @@
     "url": "#/"
   },
   {
-    "name": "About",
-    "url": "/about"
-  },
-  {
-    "name": "Contact",
-    "url": "/contact"
+    "name": "Top Movies",
+    "url": "#/topmovies"
   }
 ]
